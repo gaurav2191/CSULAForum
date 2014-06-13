@@ -1,6 +1,5 @@
 <?php
-	$con=mysqli_connect("sql110.byethost3.com","b3_14937755","hithere","b3_14937755_ecstforum");
-	//$con=mysqli_connect("localhost","root","","csulaforum");
+	$con=mysqli_connect("localhost","root","","csulaforum");
 	if (mysqli_connect_errno($con))
 	{
 		echo "Failed to connect to MySQL: " . mysqli_connect_error();
