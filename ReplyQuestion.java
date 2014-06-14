@@ -45,7 +45,7 @@ public class ReplyQuestion extends Activity {
 				String courseid = pref.getString("courseid", null);
 				String userid = pref.getString("userid", null);
 				String questionid = pref.getString("questionid", null);
-				String link = "http://gaurav.byethost3.com/CSULAForum/postReply.php";//"http://10.0.2.2:80/CSULAForum/postReply.php";
+				String link = /*"http://gaurav.byethost3.com/CSULAForum/postReply.php";*/"http://10.0.2.2:80/CSULAForum/postReply.php";
 				String data = URLEncoder.encode("reply", "UTF-8") + "="
 						+ URLEncoder.encode(reply, "UTF-8");
 				data += "&" + URLEncoder.encode("questionid", "UTF-8") + "="
