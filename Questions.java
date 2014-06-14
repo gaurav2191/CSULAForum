@@ -92,7 +92,7 @@ public class Questions extends ListActivity {
 		try {
 			// SharedPreferences pref =
 			// getSharedPreferences(LoginActivity.MyPREFERENCES, 0);
-			String link = "http://gaurav.byethost3.com/CSULAForum/getAnswers.php";
+			String link = "http://10.0.2.2/CSULAForum/getAnswers.php";//"http://gaurav.byethost3.com/CSULAForum/getAnswers.php";
 			String data = URLEncoder.encode("que", "UTF-8") + "="
 					+ URLEncoder.encode(que, "UTF-8");
 			URL url = new URL(link);
