@@ -52,7 +52,7 @@ public class RegisterActivity extends Activity {
 		            	Toast.makeText(getApplicationContext(), "Required field(s) are missing.", Toast.LENGTH_LONG).show();
 		            }
 		            else{
-		            String link="http://gaurav.byethost3.com/CSULAForum/register.php";//"http://10.0.2.2:80/CSULAForum/register.php";
+		            String link=/*"http://gaurav.byethost3.com/CSULAForum/register.php";*/"http://10.0.2.2:80/CSULAForum/register.php";
 		            String data  = URLEncoder.encode("fullname","UTF-8")+"="+URLEncoder.encode(fullname,"UTF-8");
 		            data+="&" + URLEncoder.encode("email", "UTF-8")+ "=" + URLEncoder.encode(email, "UTF-8");
 		            data+= "&"+URLEncoder.encode("username", "UTF-8")+ "=" + URLEncoder.encode(username, "UTF-8");
