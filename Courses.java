@@ -37,7 +37,7 @@ public class Courses extends ListActivity {
 			SharedPreferences pref = getSharedPreferences(
 					LoginActivity.MyPREFERENCES, 0);
 			String maj = pref.getString("major", null);
-			String link = "http://gaurav.byethost3.com/CSULAForum/getCourses.php";//"http://10.0.2.2:80/CSULAForum/getCourses.php";
+			String link = /*"http://gaurav.byethost3.com/CSULAForum/getCourses.php";*/"http://10.0.2.2:80/CSULAForum/getCourses.php";
 			String data = URLEncoder.encode("major", "UTF-8") + "="
 					+ URLEncoder.encode(maj, "UTF-8");
 			URL url = new URL(link);
@@ -121,7 +121,7 @@ public class Courses extends ListActivity {
 								LoginActivity.MyPREFERENCES, 0);
 						Editor editor = pref.edit();
 
-						String link ="http://gaurav.byethost3.com/CSULAForum/getQuestions.php";// "http://10.0.2.2:80/CSULAForum/getQuestions.php";
+						String link =/*"http://gaurav.byethost3.com/CSULAForum/getQuestions.php";*/ "http://10.0.2.2:80/CSULAForum/getQuestions.php";
 						String data = URLEncoder.encode("coursename", "UTF-8")
 								+ "=" + URLEncoder.encode(coursename, "UTF-8");
 						URL url = new URL(link);
