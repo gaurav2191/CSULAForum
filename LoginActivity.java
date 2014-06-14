@@ -44,7 +44,7 @@ public class LoginActivity extends Activity {
 				 try{
 			            String username = uname.getText().toString();
 			            String password = pass.getText().toString();
-			            String link="http://gaurav.byethost3.com/CSULAForum/login.php";//"http://10.0.2.2:80/CSULAForum/login.php";
+			            String link=/*"http://gaurav.byethost3.com/CSULAForum/login.php";*/"http://10.0.2.2:80/CSULAForum/login.php";
 			            String data  = URLEncoder.encode("username", "UTF-8") 
 			            + "=" + URLEncoder.encode(username, "UTF-8");
 			            data += "&" + URLEncoder.encode("password", "UTF-8") 
