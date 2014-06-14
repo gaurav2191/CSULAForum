@@ -46,7 +46,7 @@ public class AskQuestion extends Activity {
 						LoginActivity.MyPREFERENCES, 0);
 				String courseid = pref.getString("courseid", null);
 				String userid = pref.getString("userid", null);
-				String link = "http://gaurav.byethost3.com/CSULAForum/postQuestion.php";//"http://10.0.2.2:80/CSULAForum/postQuestion.php";
+				String link = /*"http://gaurav.byethost3.com/CSULAForum/postQuestion.php";*/"http://10.0.2.2:80/CSULAForum/postQuestion.php";
 				String data = URLEncoder.encode("question", "UTF-8") + "="
 						+ URLEncoder.encode(question, "UTF-8");
 				data += "&" + URLEncoder.encode("courseid", "UTF-8") 
